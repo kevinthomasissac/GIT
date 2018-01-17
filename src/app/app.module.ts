@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { RectComponent } from './jointdemo/rect/rect.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RectComponent
   ],
   imports: [
     BrowserModule
